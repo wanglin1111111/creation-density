@@ -1,0 +1,45 @@
+{
+  "week": {
+    "open_items": 1,
+    "items": [
+      {
+        "id": "ITEM-1",
+        "driver": "real_problem",
+        "hit_by": "客户每周重复问的结算对账问题，本周又出现 4 次",
+        "deliverable": "对账自动核对脚本（输入两份表，输出差异清单）",
+        "status": "closed",
+        "usage_evidence": "客户张经理 3 次用脚本跑了月结，邮件确认差异从 2 小时降到 10 分钟",
+        "prompt_template_saved": true
+      },
+      {
+        "id": "ITEM-2",
+        "driver": "real_problem",
+        "hit_by": "自己每周手写的周报，重复出现 5 周以上",
+        "deliverable": "周报生成 prompt 模板（输入任务清单，输出周报）",
+        "status": "closed",
+        "usage_evidence": "本周五份周报全部由模板产出，同事试用 2 次",
+        "prompt_template_saved": true
+      },
+      {
+        "id": "ITEM-3",
+        "driver": "real_problem",
+        "hit_by": "团队新人环境配置踩坑，本周 2 人重复踩",
+        "deliverable": "环境配置 checklist 文档",
+        "status": "open",
+        "usage_evidence": "",
+        "prompt_template_saved": false
+      }
+    ],
+    "weekly_closed_count": 2
+  },
+  "time_allocation": {
+    "judgment_pct": 55,
+    "mastery_pct": 25,
+    "execution_pct": 20
+  },
+  "launch": {
+    "decision": "not_now",
+    "cost_check": {},
+    "milestones": {}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "week": {
+    "open_items": 5,
+    "items": [
+      {
+        "id": "ITEM-1",
+        "driver": "passion",
+        "hit_by": "",
+        "deliverable": "",
+        "status": "open",
+        "usage_evidence": "",
+        "prompt_template_saved": false
+      },
+      {
+        "id": "ITEM-2",
+        "driver": "real_problem",
+        "hit_by": "客户重复问的问题",
+        "deliverable": "对账脚本",
+        "status": "closed",
+        "usage_evidence": "",
+        "prompt_template_saved": false
+      },
+      {
+        "id": "ITEM-3",
+        "driver": "real_problem",
+        "hit_by": "周报手写",
+        "deliverable": "周报模板",
+        "status": "closed",
+        "usage_evidence": "同事用了",
+        "prompt_template_saved": true
+      }
+    ],
+    "weekly_closed_count": 3
+  },
+  "time_allocation": {
+    "judgment_pct": 30,
+    "mastery_pct": 50,
+    "execution_pct": 20
+  },
+  "launch": {
+    "decision": "pay_incubator",
+    "cost_check": {
+      "funding_monthly_burn": false,
+      "runway_months": false,
+      "opportunity_cost": true,
+      "alternatives_considered": false
+    },
+    "milestones": {
+      "m1_deliverables_3plus": false,
+      "m2_active_users_3plus": false,
+      "m3_measurable_result": false
+    }
+  }
+}
